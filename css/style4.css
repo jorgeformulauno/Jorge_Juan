@@ -1,0 +1,60 @@
+/*.caja{
+    display: flex;
+    flex-direction: column;
+}
+*/
+#rojo_arriba{
+     border: 2px solid black;
+    width: 99.9%;
+    height: 40px;
+    background-color: rgb(231, 53, 47);
+}
+
+#caja_verde_1{
+     border: 1px solid black;
+    float: left;
+    width: 25%;
+    height: 700px;
+    background-color: rgb(80, 233, 49);
+}
+
+#caja_azul_2{
+    float: left;
+    width: 40%;
+    height: 700px;
+    background-color: rgb(49, 123, 233);
+
+}
+
+#cajas_moradas_1{
+     border: 2px solid black;
+    float: left;
+    width: 34.6%;
+    height: 230.3px;
+    background-color: rgb(233, 49, 233);
+
+}
+#cajas_moradas_2{
+     border: 2px solid black;
+    float: left;
+    width: 34.6%;
+    height: 230.3px;
+    background-color: rgb(233, 49, 233);
+
+}
+#cajas_moradas_3{
+     border: 2px solid black;
+    float: left;
+    width: 34.6%;
+    height: 230.3px;
+    background-color: rgb(233, 49, 233);
+
+}
+
+#caja_amarilla{
+     border: 3px solid black;
+    clear: both;
+    width: 100%;
+    height: 232px;
+    background-color: rgb(255, 145, 0);
+}

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+
+  grid-template-rows: 3fr 1fr;
+
+  gap: 4px; 
+  background: black;
+}
+.box {
+  padding: 10px;
+  color: white;
+  font-family: Arial;
+}
+
+/* Columnas azules */
+.azul1 {
+  background: linear-gradient(#5f8dd6, #4f7db5);
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.azul2 {
+  background: linear-gradient(#5f8dd6, #4f7db5);
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* Bloque morado grande */
+.púrpura {
+  background: linear-gradient(#9a7dc4, #8467a9);
+  grid-column: 3;
+  grid-row: 1 / 3; /* ocupa las 2 filas */
+}
+
+/* Bloque rojo */
+.roja {
+  background: linear-gradient(#ff5e5e, #c74c4c);
+  grid-column: 4;
+  grid-row: 1;
+}
+
+/* Naranja inferior izquierda */
+.naranja-izquierda {
+  background: linear-gradient(#ffa940, #ff8c1a);
+  grid-column: 1 / 3; /* ocupa 2 columnas */
+  grid-row: 2;
+}
+
+/* Naranja inferior derecha */
+.naranja-derecha {
+  background: linear-gradient(#ffa940, #ff8c1a);
+  grid-column: 4;
+  grid-row: 2;
+}
